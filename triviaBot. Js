@@ -1,0 +1,33 @@
+// Phase 1: Greeting and Bot Info
+console.log("Hello! I'm your coding fun fact guide!");
+const botName = "TriviaMaster";
+const botLocation = "the Cloud";
+const favoriteLanguage = "JavaScript";
+
+console.log("My name is " + botName + " and I live on " + botLocation + ".");
+console.log("My favorite programming language is " + favoriteLanguage + ".");
+
+// Phase 2: User Personalization
+let name = "John";
+let favoriteSubject = "Computer Science";
+
+console.log("Hello " + name + "! It's cool that you like " + favoriteSubject + ".");
+
+let status = "Computer Science student";
+console.log("I see that you are a " + status + ".");
+
+status = "future developer";
+console.log("Keep studying, " + name + "! You will be an amazing " + status + " soon.");
+
+// Phase 3: Coding Facts and Reassignment
+let codingFact = favoriteLanguage + " was created in 10 days!";
+console.log(codingFact);
+
+codingFact = favoriteLanguage + " was originally called Mocha.";
+console.log(codingFact);
+
+codingFact = favoriteLanguage + " is used for both front-end and back-end.";
+console.log(codingFact);
+
+// Phase 4: Farewell
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
